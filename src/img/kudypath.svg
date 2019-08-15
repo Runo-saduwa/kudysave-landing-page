@@ -1,0 +1,17 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="893.233" viewBox="0 0 1920 893.233">
+  <g id="Group_6" data-name="Group 6" transform="translate(0 0.233)">
+    <g id="Group_5" data-name="Group 5" transform="translate(0 -0.233)">
+      <g id="Group_4" data-name="Group 4">
+        <g id="Group_3" data-name="Group 3">
+          <path id="Path_5" data-name="Path 5" d="M0,0H1920V850L829.441,893,0,530.639Z" transform="translate(0 0.233)" fill="#4f6ee0"/>
+          <path id="Path_6" data-name="Path 6" d="M0,0H509.143V518.758L219.95,545,0,323.85Z" transform="translate(0 0.233)" fill="#4563d1"/>
+          <path id="Path_7" data-name="Path 7" d="M0,0H495.074V254.683l-281.2,12.883L0,158.993Z" transform="translate(618 618.891)" fill="#4563d1"/>
+          <path id="Path_1" data-name="Path 1" d="M0,0H1229V797.637s-505.641,34.9-812.891-164.51S0,0,0,0Z" transform="translate(691 0.233)" fill="#4563d1"/>
+          <path id="Path_4" data-name="Path 4" d="M0,0H361.4V422.628s-148.69,18.491-239.041-87.166S0,0,0,0Z" transform="translate(1558.597 376.345)" fill="#4f6ee0"/>
+          <path id="Path_8" data-name="Path 8" d="M0,0H361.4V422.628s-148.69,18.491-239.041-87.166S0,0,0,0Z" transform="matrix(1, -0.017, 0.017, 1, 896.926, 6.307)" fill="#4f6ee0"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
