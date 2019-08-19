@@ -1,0 +1,67 @@
+.ham {
+    cursor: pointer;
+    z-index:1000;
+    -webkit-tap-highlight-color: transparent;
+    transition: transform 400ms;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .line {
+    fill:none;
+    transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+    stroke:#fff;
+    stroke-width:5.5;
+    stroke-linecap:round;
+  }
+
+  .ham2 .top {
+    stroke-dasharray: 40 121;
+  }
+  .ham2 .bottom {
+    stroke-dasharray: 40 121;
+  }
+  .ham2.active .top {
+    stroke-dashoffset: -102px;
+  }
+  .ham2.active .bottom {
+    stroke-dashoffset: -102px;
+  }
+
+  .nav-container {
+      position: fixed;
+    
+      z-index: 500;
+      width:100%;
+      transition: 0.25s;
+      /* margin: 0 auto; */
+  }
+  .nav-bg {
+    background: #4f6ee0;
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);
+  }
+
+  .navlinks li{
+     list-style-type: none;
+     margin: 20px 0;
+  }
+
+  .navlinks li a {
+    border-bottom: 1px solid #453886;
+    color: #453886;
+    padding-bottom: .25em;
+    text-decoration: none;
+  }
+  
+  .navlinks li a:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 20%;
+    border-bottom: 0;
+    padding-bottom: .3em;
+    text-decoration: none;
+  }
+
