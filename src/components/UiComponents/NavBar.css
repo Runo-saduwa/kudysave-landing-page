@@ -8,7 +8,12 @@
     -ms-user-select: none;
     user-select: none;
   }
-
+.logo{
+  color: #fff;
+  font-weight: 700;
+  font-style: italic;
+  margin: 20px 20px;
+}
   .line {
     fill:none;
     transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;

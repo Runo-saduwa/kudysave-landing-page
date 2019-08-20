@@ -66,7 +66,7 @@ class NavBar extends Component {
 					<div
 						className="nav-container d-flex justify-content-between"
 					>
-						<span>Logo</span>
+						<span class="logo">KudySave</span>
 						<span style={{position:'relative', zIndex: '1000'}} onClick={() => this.onSetSidebarOpen()}>
 							<svg
 								className={`ham ham2 ${this.state.active && this.state.sidebarOpen ? 'active' : null}`}

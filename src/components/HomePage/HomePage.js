@@ -24,7 +24,7 @@ const HomePage = (props) => {
 								</div>
 							</div>
 						</div>
-						<div className="col-md-4 col-sm-12 phone-section d-flex justify-content-center">
+						<div className="col-md-4 col-sm-12 phone-section d-flex justify-content-center mb-5">
 							<PhoneSvg />
 						</div>
 					</div>
