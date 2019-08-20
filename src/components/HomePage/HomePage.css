@@ -11,7 +11,10 @@
 
 .phone{
     width: 80% !important;
+    padding-bottom: 100px;
 }
+
+
 
 .button-block {
     display: flex;
