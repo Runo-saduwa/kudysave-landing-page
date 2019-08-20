@@ -60,7 +60,7 @@ class NavBar extends Component {
 					open={this.state.sidebarOpen}
 					onSetOpen={this.onSetSidebarOpen}
 					styles={{
-						sidebar: { background: 'white', position: 'fixed', paddingRight: '100px' }
+						sidebar: { background: 'white', position: 'fixed', zIndex: 500, paddingRight: '100px' }
 					}}
 				>
 					<div
