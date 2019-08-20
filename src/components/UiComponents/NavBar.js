@@ -57,7 +57,7 @@ class NavBar extends Component {
                     <span>
                         Logo
                     </span>
-                    <span style={{position: 'relative', zIndex: '1000'}} onClick={() => this.onSetSidebarOpen()}>
+                    <span onClick={() => this.onSetSidebarOpen()}>
 							<svg
 								className={`ham ham2 ${this.state.active && this.state.sidebarOpen ? 'active' : null}`}
 								viewBox="0 0 100 100"
