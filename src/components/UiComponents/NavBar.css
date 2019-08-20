@@ -31,14 +31,14 @@
   }
 
   .nav-container {
-      position: fixed;
-    
-      z-index: 500;
+ 
       width:100%;
       transition: 0.25s;
       /* margin: 0 auto; */
   }
   .nav-bg {
+    position:fixed;
+    z-index: 1000;
     background: #4f6ee0;
     box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);
   }
