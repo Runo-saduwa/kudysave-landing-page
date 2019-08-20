@@ -13,11 +13,12 @@
     color: #4563d1;
 }
 .box-content p{
+    font-size:1em;
     text-align:center;
 }
 
 .home-delivery {
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: 700;
     margin: 0 2px;
 }
@@ -47,12 +48,13 @@
 }
 
 .bg h1{
+    margin: 10px 0;
     color: #4563d1;
-    font-size: 2em;
+    font-size: 1.2em;
 }
 
 .bg p {
-    font-size: 1.2em;
+    font-size: 1em;
     color: #4563d1;
     text-align: center;
 }
