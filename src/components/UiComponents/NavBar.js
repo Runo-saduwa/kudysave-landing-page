@@ -60,16 +60,14 @@ class NavBar extends Component {
 					open={this.state.sidebarOpen}
 					onSetOpen={this.onSetSidebarOpen}
 					styles={{
-						sidebar: { background: 'white', paddingRight: '100px' }
+						sidebar: { background: 'white', position: 'fixed', paddingRight: '100px' }
 					}}
 				>
 					<div
-						className={`nav-container d-flex justify-content-between ${this.state.scrolled
-							? 'nav-bg'
-							: null}`}
+						className="nav-container d-flex justify-content-between"
 					>
 						<span>Logo</span>
-						<span onClick={() => this.onSetSidebarOpen()}>
+						<span style={{position:'relative', zIndex: '1000'}} onClick={() => this.onSetSidebarOpen()}>
 							<svg
 								className={`ham ham2 ${this.state.active && this.state.sidebarOpen ? 'active' : null}`}
 								viewBox="0 0 100 100"
