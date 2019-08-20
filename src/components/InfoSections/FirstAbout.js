@@ -8,7 +8,7 @@ const FirstAbout = (props) => {
 		<section className="first-about about-container py-5">
 			<div className="row">
 			<Fade left>
-				<div className="col-sm-12 col-md-6 col-lg-6">
+				<div className="box col-sm-12 col-md-6 col-lg-6">
 					
 						<div class="first-box-1 box-height">
 							<div className="box-content p-4">
@@ -27,7 +27,7 @@ const FirstAbout = (props) => {
 				</div>
 				</Fade>
 				<Fade right>
-				<div className="col-sm-12 col-md-6 my-3">
+				<div className="box col-sm-12 col-md-6 my-3">
 					<div class="first-box-2 box-height">
 						<img className="w-100 h-100" src={img2} />
 					</div>
