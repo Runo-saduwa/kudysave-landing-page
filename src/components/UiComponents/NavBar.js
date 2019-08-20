@@ -10,15 +10,15 @@ class NavBar extends Component {
 	};
 	componentDidMount() {
 		window.addEventListener('scroll', () => {
-		 if (window.scrollY > 0) {
-             this.setState({
-                 scrolled: true
-             })
-         } else {
-             this.setState({
-                 scrolled:false
-             })
-         }
+			if (window.scrollY > 0) {
+				this.setState({
+					scrolled: true
+				});
+			} else {
+				this.setState({
+					scrolled: false
+				});
+			}
 		});
 	}
 
@@ -39,10 +39,18 @@ class NavBar extends Component {
 	render() {
 		const navLinks = (
 			<ul className="navlinks">
-				<li><a href="/home">Home</a></li>
-				<li><a href="#">Sign Up</a></li>
-				<li><a href="/">About Us</a></li>
-				<li><a href="#">Contact us</a></li>
+				<li>
+					<a href="/home">Home</a>
+				</li>
+				<li>
+					<a href="#">Sign Up</a>
+				</li>
+				<li>
+					<a href="/">About Us</a>
+				</li>
+				<li>
+					<a href="#">Contact us</a>
+				</li>
 			</ul>
 		);
 		return (
@@ -51,13 +59,17 @@ class NavBar extends Component {
 					sidebar={navLinks}
 					open={this.state.sidebarOpen}
 					onSetOpen={this.onSetSidebarOpen}
-					styles={{ sidebar: { background: 'white', position: 'fixed', zIndex:'1000', paddingRight: '100px' } }}
+					styles={{
+						sidebar: { background: 'white', paddingRight: '100px' }
+					}}
 				>
-					<div className={`nav-container d-flex justify-content-between ${this.state.scrolled ? 'nav-bg' : null}`}>
-                    <span>
-                        Logo
-                    </span>
-                    <span onClick={() => this.onSetSidebarOpen()}>
+					<div
+						className={`nav-container d-flex justify-content-between ${this.state.scrolled
+							? 'nav-bg'
+							: null}`}
+					>
+						<span>Logo</span>
+						<span onClick={() => this.onSetSidebarOpen()}>
 							<svg
 								className={`ham ham2 ${this.state.active && this.state.sidebarOpen ? 'active' : null}`}
 								viewBox="0 0 100 100"
@@ -77,6 +89,7 @@ class NavBar extends Component {
 						</span>
 					</div>
 				</Sidebar>
+			
 			</Fragment>
 		);
 	}
