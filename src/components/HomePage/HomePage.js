@@ -20,7 +20,7 @@ const HomePage = (props) => {
 									Kudysave is the best platform for savings For food and for the future
 								</p>
 								<div className="button-block">
-									<button className="btn btn-success text-center">create account</button>
+									<button className="custom-btn text-center">create account</button>
 								</div>
 							</div>
 						</div>
@@ -44,6 +44,23 @@ const HomePage = (props) => {
 				bgClass="bgClass"
 			/>
 			<SecondAbout />
+			<div className="register-section container">
+                  <div className="row">
+					  <div className="col-sm-12 col-md-6">
+						  <h1>
+						  Ready To Get Started?
+						  </h1>
+						  <p className="lead">
+						  Kudysave gives additional bonus to every users on a monthly basis if you save above  The expected monthly limits.
+						  </p>
+					  </div>
+					  <div className="col-sm-12 col-md-6">
+					  <div className="register-btn">
+					  <button className="custom-btn text-center">create account</button>
+					  </div>
+					  </div>
+				  </div>
+			</div>
 		</React.Fragment>
 	);
 };

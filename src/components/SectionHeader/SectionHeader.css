@@ -5,12 +5,13 @@
 }
 
 .section-title {
-    font-size: 1.5em !important;
+    font-size: 1.4em !important;
+    color: #4f6ee0;
 
 }
 
 .bgClass {
-    background: #ccc;
+    background: #D6EAF8;
 }
 
 .header-margin {
@@ -20,7 +21,8 @@
 .section-subtitle {
     width:80%;
     margin: 0 auto;
-    font-size: 1em;
+    color: #4f6ee0;
+    font-size: 0.9em;
 }
 
 @media (min-width:768px){

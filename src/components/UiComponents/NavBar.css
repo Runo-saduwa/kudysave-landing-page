@@ -36,10 +36,10 @@
       transition: 0.25s;
       /* margin: 0 auto; */
   }
-  .nav-bg {
+  /* .nav-bg {
     background: #4f6ee0;
     box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);
-  }
+  } */
 
   .navlinks li{
      list-style-type: none;

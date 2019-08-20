@@ -2,13 +2,15 @@ import React from 'react';
 import wallet from '../../img/wallet.jpeg';
 import phone from '../../img/phone.jpeg';
 import foodBasket from '../../img/foodbasket.jpeg';
+import Fade from 'react-reveal/Fade';
 // import { ReactComponent as PhoneSvg } from '../../img/mobilepath.svg';
 
 const SecondAbout = (props) => {
 	return (
 		<section className="second-about py-5">
 			<div className="row d-flex justify-content-between">
-				<div className="bg col-sm-12 col-md-3 col-lg-3">
+			  <Fade left>
+			  <div className="bg col-sm-12 col-md-3 col-lg-3">
 					<div className="second-about-height my-3">
 						<div>
 							<div className="text-center">
@@ -19,6 +21,7 @@ const SecondAbout = (props) => {
 						</div>
 					</div>
 				</div>
+			  </Fade>
 				<div className="bg col-sm-12 col-md-3 col-lg-3">
 					<div className="second-about-height my-3">
 						<div>
@@ -30,6 +33,7 @@ const SecondAbout = (props) => {
 						</div>
 					</div>
 				</div>
+				<Fade right>
 				<div className="bg col-sm-12 col-md-3 col-lg-3">
 					<div class="second-about-height my-3">
 						<div>
@@ -41,6 +45,7 @@ const SecondAbout = (props) => {
 						</div>
 					</div>
 				</div>
+				</Fade>
 			</div>
 		</section>
 	);
